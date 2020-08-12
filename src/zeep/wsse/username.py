@@ -68,7 +68,7 @@ class UsernameToken:
         self.hash_password = hash_password
 
 
-    def apply(self, envelope, headers):
+    def apply(self, envelope, headers, operation_obj=None):
         security = utils.get_security_header(envelope)
 
         # The token placeholder might already exists since it is specified in
