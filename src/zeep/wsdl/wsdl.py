@@ -30,6 +30,7 @@ NSMAP = {"wsdl": ns.WSDL, "wsp": ns.WSP, "sp": ns.SP, "wsu": ns.WSU}
 
 logger = logging.getLogger(__name__)
 
+
 class Document:
     """A WSDL Document exists out of one or more definitions.
 
